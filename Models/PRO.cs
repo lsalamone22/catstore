@@ -14,7 +14,7 @@ namespace catstore.Models
         [Column("id")]
         public int id {get;set;}
         public string userID {get;set;}
-
+        
         public Producto? Producto { get; set; }
         public int Cantidad { get; set; }
 
